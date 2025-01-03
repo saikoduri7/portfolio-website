@@ -1,0 +1,307 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.fit {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: left;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.right {
+    flex: 1;
+    background-color: white;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.right h1 {
+    font-size: 3.4em;
+    line-height: 1.2;
+    padding-left: 50px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.divider {
+    width: 200%;
+    border: 2px solid #000;
+    margin: 20px 0;
+}
+.message {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    font-family: "DM Sans", serif;
+
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.links {
+    margin-top: 20px;
+    padding-left: 50px;
+
+}
+
+.links p {
+    font-weight: bold;
+    font-family: "DM Sans", serif;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    
+    
+}
+
+.links a img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.links a img:hover {
+    transform: scale(1.2);
+}
+
+/*ABOUT*/
+
+#about {
+    background-color: black;
+}
+
+.paragraph {
+    margin: 0;
+    padding: 5rem;
+}
+
+.paragraph p {
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+
+}
+
+
+/* EXPERIENCE */
+
+#experience {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.title-exp {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-family: "Raleway", serif;
+}
+
+
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.all-exp {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-logo {
+    width: 125px;
+}
+
+.experience-content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.time-title {
+    padding-left: 15rem;
+    text-align: right;
+    padding-right: 3.5rem;
+}
+
+.time-title2 {
+    padding-left: 15rem;
+    text-align: right;
+    padding-right: 2.85rem;
+}
+
+.time-title3 {
+    padding-left: 15rem;
+    text-align: right;
+    padding-right: 2.8rem;
+}
+
+.time-title4 {
+    padding-left: 15rem;
+    text-align: right;
+    padding-right: 1.95rem;
+}
+
+.time-title5 {
+    padding-left: 15rem;
+    text-align: right;
+    padding-right: 4.85rem;
+}
+
+.time-title h2 {
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Raleway", serif;
+    font-weight: bold;
+
+
+}
+
+.time-title p {
+    font-size: 0.9em;
+    color: #555;
+    font-family: "Raleway", serif;
+
+}
+
+.time-title2 h2 {
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Raleway", serif;
+
+}
+
+.time-title2 p {
+    font-size: 0.9em;
+    color: #555;
+    font-family: "Raleway", serif;
+
+}
+
+.time-title3 h2 {
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Raleway", serif;
+
+
+}
+
+.time-title3 p {
+    font-size: 0.9em;
+    color: #555;
+    font-family: "Raleway", serif;
+
+}
+
+.time-title4 h2 {
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Raleway", serif;
+
+
+}
+
+.time-title4 p {
+    font-size: 0.9em;
+    color: #555;
+    font-family: "Raleway", serif;
+
+}
+
+.time-title5 h2 {
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Raleway", serif;
+
+
+}
+
+.time-title5 p {
+    font-size: 0.9em;
+    color: #555;
+    font-family: "Raleway", serif;
+
+}
+
+
+.role-description {
+    text-align: left;
+    padding-left: 3rem;
+    border-left: 1.5px solid #646464;
+    min-height: 15vh;
+    height: auto;
+    
+
+}
+
+.role-description h3 {
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000;
+    font-family: "Raleway", serif;
+
+}
+
+.role-description p {
+    font-size: 0.8em;
+    line-height: 1.6;
+    color: #555;
+    font-family: "Raleway", serif;
+    padding-bottom: 20px;
+
+}
+
+
+.bottom {
+    text-align: center;
+    font-family: "Raleway", serif;
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+
+}
